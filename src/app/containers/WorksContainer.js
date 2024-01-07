@@ -48,7 +48,7 @@ const WorksContainer = ({activeTab}) => {
                             </li>
                             <li className="mb-[40px] w-1/3 h-full pl-[40px]" onClick={() => handleOpenModal(2)}>
                                 <div className="list_inner w-full h-auto clear-both float-left relative border-solid border-[rgba(0,0,0,.1)] border bg-white pr-[30px] pb-[40px] pl-[30px] transition-all duration-300">
-                                    <h3 className="title font-bold text-black text-[18px] mt-[20px]">Mid Front-end Developer</h3>
+                                    <h3 className="title font-bold text-black text-[18px] mt-[20px]">Mid Front End Developer</h3>
                                     <h5 className="leading-6 text-sm font-bold">BCS Technology</h5>
                                     <p className="text py-3">
                                         UI/UX developer for Discovery Parks AU...
@@ -60,7 +60,7 @@ const WorksContainer = ({activeTab}) => {
                             </li>
                             <li className="mb-[40px] w-1/3 h-full pl-[40px]" onClick={() => handleOpenModal(3)}>
                                 <div className="list_inner w-full h-auto clear-both float-left relative border-solid border-[rgba(0,0,0,.1)] border bg-white pr-[30px] pb-[40px] pl-[30px] transition-all duration-300">
-                                    <h3 className="title font-bold text-black text-[18px] mt-[20px]">Front-end Developer</h3>
+                                    <h3 className="title font-bold text-black text-[18px] mt-[20px]">Front End Developer</h3>
                                     <h5 className="leading-6 text-sm font-bold">Rightchoice Philippines</h5>
                                     <p className="text py-3">
                                         One of the leading financial institution in Singapore...

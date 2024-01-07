@@ -22,7 +22,7 @@ const HomeContainer = ({activeTab}) => {
                         <div className="details ml-[80px]">
                             <h3 className="name text-[55px] font-extrabold uppercase mb-[14px]">Serjo <span>Lio</span></h3>
                             <p className="job font-montserrat font-medium max-w-[450px] mb-[25px]">
-                            An experienced Front-end Developer adept in bringing forth expertise in user interface, design, testing and development of web applications.
+                            An experienced Front End Developer adept in bringing forth expertise in user interface, design, testing and development of web applications.
                             </p>
                             <div className="social w-full float-left">
                                 <ul className="m-0 list-none">

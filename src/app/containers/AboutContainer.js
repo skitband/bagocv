@@ -29,7 +29,7 @@ const HomeContainer = ({activeTab}) => {
                             </div>
                             <div className="about_title w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[20px] mb-[30px]">
                                 <h3 className="text-[22px] font-bold text-black">Sergio</h3>
-                                <span>Front-end Developer</span>
+                                <span>Front End Developer</span>
                             </div>
                             <div className="about_text w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[31px] mb-[30px]">
                                 <p className="mb-[11px]">With over 8 years of experience in the dynamic realm of web development, I am a seasoned Front-End Developer specializing in web user interface
@@ -165,7 +165,7 @@ const HomeContainer = ({activeTab}) => {
                                     <h3 className="text-[20px] font-bold">Knowledge</h3>
                                 </div>
                                 <div className="tokyo_tm_skill_list w-full h-auto clear-both float-left">
-                                    <ul className="m-0 list-none">
+                                    <ul className="m-0 knowledge">
                                         <li className="m-0 pl-[25px] relative">
                                             <span>
                                             Bootstrap, Tailwind, Ant Design, Material UI
@@ -208,7 +208,7 @@ const HomeContainer = ({activeTab}) => {
                                     <ul className="m-0 list-none relative inline-block pt-[10px]">
                                         <li className="m-0 w-full float-left relative pl-[20px] pb-[45px]">
                                             <div className="list_inner  w-full h-auto clear-both float-left relative flex">
-                                            <div className="time w-1/2 pr-[20px] bg-g"><span className="inline-block py-[5px] px-[25px] bg-black text-white rounded-[50px] text-[14px] whitespace-nowrap">2009 - 2013</span></div>
+                                            <div className="time w-1/2 pr-[20px] bg-g"><span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">2009 - 2013</span></div>
                                             <div className="place w-1/2 pl-[20px]">
                                                 <h3 className="text-[16px] mb-[2px] font-semibold">Jose Rizal University</h3>
                                                 <span className="text-[14px]">Tertiary School Bachelors Degree of Information Technology</span>

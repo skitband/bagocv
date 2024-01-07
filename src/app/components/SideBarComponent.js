@@ -4,16 +4,12 @@ import { useState } from 'react';
 
 const SideBarComponent = ({activeTab, handleClick}) => {
 
-    const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-    const toggleMobileMenu = () => {
-        setMobileMenuOpen(!isMobileMenuOpen);
-    };
-
     const handleMenuClick = (e) => {
         handleClick(e)
-        setMobileMenuOpen(false)
     }
+
+    const date = new Date();
+    const year = date.getFullYear();
 
     return (
         <>
@@ -48,7 +44,11 @@ const SideBarComponent = ({activeTab, handleClick}) => {
                             </a>
                         </li>
                         <li className="m-0 w-full float-left ">
-                            <a className="text-[#767676] capitalize inline-block font-medium font-montserrat transition-all duration-300 hover:text-black" href="#portfolio">portfolio</a>
+                        <a 
+                                className="text-[#767676] capitalize inline-block font-medium font-montserrat transition-all duration-300 hover:text-black" 
+                                href="#"
+                                onClick={() => handleMenuClick('portfolio')} > Portfolio 
+                            </a>
                         </li>
                         <li className="m-0 w-full float-left ">
                             <a className="text-[#767676] capitalize inline-block font-medium font-montserrat transition-all duration-300 hover:text-black" href="#news">news</a>
@@ -60,7 +60,7 @@ const SideBarComponent = ({activeTab, handleClick}) => {
                 </div>
                 <div className="copyright w-full float-left">
                 <p className="text-[15px] text-[#999] font-montserrat leading-[25px]">
-                    ©2023<br />Created by: <a className="text-[#787878] font-medium transition-all duration-300 hover:text-black" href="https://github.com/skitband">serjoLio</a>
+                    ©{year}<br />Created by: <a className="text-[#787878] font-medium transition-all duration-300 hover:text-black" href="https://github.com/skitband">serjoLio</a>
                 </p>
                 </div>
             </div>
