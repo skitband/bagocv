@@ -3,7 +3,7 @@ import { faSquareFacebook, faSquareTwitter, faSquareGithub, faSquareJs } from '@
 
 const HomeContainer = ({activeTab}) => {
     
-    const backgroundImageUrl = "./assets/img/pic-b&w.png";
+    const backgroundImageUrl = "./assets/img/monkey.jpg";
 
     const containerStyle = {
         backgroundImage: `url(${backgroundImageUrl})`
