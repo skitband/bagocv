@@ -65,7 +65,7 @@ const ContactContainer = ({ activeTab }) => {
             if (req.status === 200) {
               setResponseMessage({
                 isSuccessful: true,
-                message: "Thank you for your message. I&apos;ll get back to you asap.",
+                message: "Thank you for your message. I'll get back to you asap.",
               });
               toast.success('Message sent successfully.');
               resetForm();
