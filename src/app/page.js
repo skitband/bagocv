@@ -9,6 +9,9 @@ import HomeContainer from './containers/HomeContainer';
 import AboutContainer from './containers/AboutContainer';
 import WorksContainer from './containers/WorksContainer';
 import PortfolioContainer from './containers/PortfolioContainer';
+import ContactContainer from './containers/ContactContainer';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function Home() {
 
@@ -30,7 +33,7 @@ export default function Home() {
         <div className="topbar_inner">
           <div className="logo" data-type="image">
             <a href="#">
-              <h3>HELLO</h3>
+              <h3>S</h3>
             </a>
           </div>
           <div className="trigger" onClick={toggleMobileMenu}>
@@ -58,10 +61,7 @@ export default function Home() {
               <a href="#portfolio" onClick={() => onHandleClick('portfolio')}>Portfolio</a>
             </li>
             <li>
-              <a href="#news">News</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact" onClick={() => onHandleClick('contact')}>Contact</a>
             </li>
           </ul>
         </div>
@@ -75,8 +75,10 @@ export default function Home() {
           <AboutContainer activeTab={activeTab} />
           <WorksContainer activeTab={activeTab} />
           <PortfolioContainer activeTab={activeTab} />
+          <ContactContainer activeTab={activeTab}/>
         </div>
       </div>
+      <ToastContainer />
     </main>
   )
 }

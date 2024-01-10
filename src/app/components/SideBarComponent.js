@@ -17,7 +17,7 @@ const SideBarComponent = ({activeTab, handleClick}) => {
             <div className="leftpart_inner w-full h-auto">
                 <div className="logo">
                 <a href="#">
-                    <h3 className="font-poppins font-black text-[31px] tracking-[5px]">HELLO</h3>
+                    <h3 className="font-MontserratExtraBold font-black text-[31px] tracking-[5px]">HELLO!</h3>
                 </a>
                 </div>
                 <div className="menu px-[0px] py-[50px] w-full float-left">
@@ -51,10 +51,11 @@ const SideBarComponent = ({activeTab, handleClick}) => {
                             </a>
                         </li>
                         <li className="m-0 w-full float-left ">
-                            <a className="text-[#767676] capitalize inline-block font-medium font-montserrat transition-all duration-300 hover:text-black" href="#news">news</a>
-                        </li>
-                        <li className="m-0 w-full float-left ">
-                            <a className="text-[#767676] capitalize inline-block font-medium font-montserrat transition-all duration-300 hover:text-black" href="#contact">contact</a>
+                            <a 
+                                className="text-[#767676] capitalize inline-block font-medium font-montserrat transition-all duration-300 hover:text-black" 
+                                href="#"
+                                onClick={() => handleMenuClick('contact')} > Contact
+                            </a>
                         </li>
                     </ul>
                 </div>

@@ -280,7 +280,7 @@ a {
 }
 
 .tokyo_tm_topbar .logo[data-type=image] h3 {
-    display: none
+    font-family: 'MontserratExtraBold';
 }
 
 .tokyo_tm_topbar .logo[data-type=text] img {
@@ -372,7 +372,7 @@ a {
 }
 
 .tokyo_tm_all_wrap .leftpart .logo h3 {
-    font-family: poppins;
+    font-family: 'MontserratExtraBold';
     font-weight: 900;
     font-size: 31px;
     letter-spacing: 5px
@@ -2484,7 +2484,6 @@ body.modal {
     border: 1px solid rgba(0,0,0,.2);
     height: 120px;
     resize: none;
-    margin-bottom: 20px;
     background-color: transparent
 }
 

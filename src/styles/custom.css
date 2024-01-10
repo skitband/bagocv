@@ -426,7 +426,6 @@ body.modal{
 	border: 1px solid rgba(0,0,0,.2);
 	height: 120px;
 	resize: none;
-	margin-bottom: 20px;
 	background-color: transparent;
 }
 .tokyo_tm_contact .fields .last textarea:focus{
@@ -452,7 +451,6 @@ body.modal{
 	font-weight: 500;
 }
 .tokyo_tm_topbar .logo[data-type="image"] img{display: inline-block;}
-.tokyo_tm_topbar .logo[data-type="image"] h3{display: none;}
 .tokyo_tm_topbar .logo[data-type="text"] img{display: none;}
 .tokyo_tm_topbar .logo[data-type="text"] h3{display: inline-block;}
 .tokyo_tm_topbar .hamburger{
@@ -725,4 +723,9 @@ body.dark .tokyo_tm_modalbox_about .description_wrap{
 .box_inner .close a svg {
     text-align: center;
     margin-top: 6px;
+}
+
+
+.contact_form .error{
+    color: #F52225;
 }
