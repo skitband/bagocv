@@ -35,6 +35,7 @@ const PortfolioContainer = ({activeTab}) => {
                               className="opacity-0 min-w-full"
                               src="assets/img/portfolio3.png"
                               alt="image"
+                              width={100}
                             />
                             <div
                               className="abs_image absolute inset-0 bg-no-repeat bg-cover bg-center transition-all duration-300"

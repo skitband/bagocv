@@ -43,7 +43,7 @@ const WorksContainer = ({activeTab}) => {
                                     </p>
                                     <span className="text-sm italic">Jan 2023 - Present</span>
                                     <div className="tokyo_tm_read_more"><a href="#"><span>Read More</span></a></div>
-                                    <a className="tokyo_tm_full_link" href="#"></a><img className="popup_service_image opacity-0 invisible hidden absolute z-[-111]" src="assets/img/news/1.jpg" alt="image" />
+                                    <a className="tokyo_tm_full_link" href="#"></a><img className="popup_service_img opacity-0 invisible hidden absolute z-[-111]" src="assets/img/news/1.jpg" alt="img" />
                                 </div>
                             </li>
                             <li className="mb-[40px] w-1/3 h-full pl-[40px]" onClick={() => handleOpenModal(2)}>
@@ -55,7 +55,7 @@ const WorksContainer = ({activeTab}) => {
                                     </p>
                                     <span className="text-sm italic">Nov 2021 - Jan 2023</span>
                                     <div className="tokyo_tm_read_more"><a href="#"><span>Read More</span></a></div>
-                                    <a className="tokyo_tm_full_link" href="#"></a><img className="popup_service_image opacity-0 invisible hidden absolute z-[-111]" src="assets/img/news/1.jpg" alt="image" />
+                                    <a className="tokyo_tm_full_link" href="#"></a><img className="popup_service_img opacity-0 invisible hidden absolute z-[-111]" src="assets/img/news/1.jpg" alt="img" />
                                 </div>
                             </li>
                             <li className="mb-[40px] w-1/3 h-full pl-[40px]" onClick={() => handleOpenModal(3)}>
@@ -67,7 +67,7 @@ const WorksContainer = ({activeTab}) => {
                                     </p>
                                     <span className="text-sm italic">Mar 2020 - Jun 2021</span>
                                     <div className="tokyo_tm_read_more"><a href="#"><span>Read More</span></a></div>
-                                    <a className="tokyo_tm_full_link" href="#"></a><img className="popup_service_image opacity-0 invisible hidden absolute z-[-111]" src="assets/img/news/1.jpg" alt="image" />
+                                    <a className="tokyo_tm_full_link" href="#"></a><img className="popup_service_img opacity-0 invisible hidden absolute z-[-111]" src="assets/img/news/1.jpg" alt="img" />
                                 </div>
                             </li>
                             <li className="mb-[40px] w-1/3 h-full pl-[40px]" onClick={() => handleOpenModal(4)}>
@@ -79,7 +79,7 @@ const WorksContainer = ({activeTab}) => {
                                     </p>
                                     <span className="text-sm italic">Aug 2018 - Mar 2020</span>
                                     <div className="tokyo_tm_read_more"><a href="#"><span>Read More</span></a></div>
-                                    <a className="tokyo_tm_full_link" href="#"></a><img className="popup_service_image opacity-0 invisible hidden absolute z-[-111]" src="assets/img/news/1.jpg" alt="image" />
+                                    <a className="tokyo_tm_full_link" href="#"></a><img className="popup_service_img opacity-0 invisible hidden absolute z-[-111]" src="assets/img/news/1.jpg" alt="img" />
                                 </div>
                             </li>
                             <li className="mb-[40px] w-1/3 h-full pl-[40px]" onClick={() => handleOpenModal(5)}>
@@ -91,7 +91,7 @@ const WorksContainer = ({activeTab}) => {
                                     </p>
                                     <span className="text-sm italic">Aug 2018 - Mar 2020</span>
                                     <div className="tokyo_tm_read_more"><a href="#"><span>Read More</span></a></div>
-                                    <a className="tokyo_tm_full_link" href="#"></a><img className="popup_service_image opacity-0 invisible hidden absolute z-[-111]" src="assets/img/news/1.jpg" alt="image" />
+                                    <a className="tokyo_tm_full_link" href="#"></a><img className="popup_service_img opacity-0 invisible hidden absolute z-[-111]" src="assets/img/news/1.jpg" alt="img" />
                                 </div>
                             </li>
                         </ul>

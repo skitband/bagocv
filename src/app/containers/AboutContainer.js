@@ -3,10 +3,10 @@ import { faCircleCheck, faFileArrowDown} from '@fortawesome/free-solid-svg-icons
 
 const HomeContainer = ({activeTab}) => {
     
-    const backgroundImageUrl = "./assets/img/monkey.jpg";
+    const backgroundimgUrl = "./assets/img/monkey.jpg";
 
     const containerStyle = {
-        backgroundImage: `url(${backgroundImageUrl})`
+        backgroundimg: `url(${backgroundimgUrl})`
     };
 
     return (
@@ -24,8 +24,8 @@ const HomeContainer = ({activeTab}) => {
                                 </div>
                                 </div>
                             </div>
-                            <div className="top_author_image w-full h-auto clear-both float-left relative mb-[35px]">
-                                <img class="min-w-full h-96" src="./assets/img/koi.jpg" alt="image" />
+                            <div className="top_author_img w-full h-auto clear-both float-left relative mb-[35px]">
+                                <img class="min-w-full h-96" src="./assets/img/koi.jpg" alt="img" />
                             </div>
                             <div className="about_title w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[20px] mb-[30px]">
                                 <h3 className="text-[22px] font-bold text-black">Sergio</h3>

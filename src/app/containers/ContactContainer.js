@@ -65,7 +65,7 @@ const ContactContainer = ({ activeTab }) => {
             if (req.status === 200) {
               setResponseMessage({
                 isSuccessful: true,
-                message: "Thank you for your message. I'll get back to you asap.",
+                message: "Thank you for your message. I&apos;ll get back to you asap.",
               });
               toast.success('Message sent successfully.');
               resetForm();
@@ -95,7 +95,7 @@ const ContactContainer = ({ activeTab }) => {
                         <span className="inline-block bg-[rgba(0,0,0,.04)] uppercase py-[4px] px-[10px] font-semibold text-[12px] text-[#333] font-montserrat tracking-[0px] mb-[11px]">
                             Contact
                         </span>
-                        <h3 className="font-extrabold font-montserrat">Let's Work It Out!</h3>
+                        <h3 className="font-extrabold font-montserrat">Let&apos;s Work It Out!</h3>
                         </div>
                     </div>
                     </div>
