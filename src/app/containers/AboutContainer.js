@@ -3,7 +3,7 @@ import { faCircleCheck, faFileArrowDown} from '@fortawesome/free-solid-svg-icons
 
 const HomeContainer = ({activeTab}) => {
     
-    const backgroundimgUrl = "./assets/img/monkey.jpg";
+    const backgroundimgUrl = "./assets/img/pic-b&w.png";
 
     const containerStyle = {
         backgroundimg: `url(${backgroundimgUrl})`
@@ -56,7 +56,7 @@ const HomeContainer = ({activeTab}) => {
                                 </div>
                                 </div>
                             </div>
-                            <div className="tokyo_tm_button" data-position="left"><a href="assets/img/cv/1.jpg" download=""> <FontAwesomeIcon icon={faFileArrowDown} /> <span> Download CV</span></a></div>
+                            <div className="tokyo_tm_button" data-position="left"><a href="assets/the_cv_resume.pdf" download=""> <FontAwesomeIcon icon={faFileArrowDown} /> <span> Download CV</span></a></div>
                         </div>
                     </div>
                     <div className="tokyo_tm_progressbox w-full h-auto clear-both float-left bg-white pt-[93px] pr-[0px] pb-[100px] pl-[0px]">
