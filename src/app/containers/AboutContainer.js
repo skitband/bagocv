@@ -97,12 +97,12 @@ const HomeContainer = ({activeTab}) => {
                                         <span>
                                             <span className="label">Php / Python</span>
                                             <span className="number">
-                                            80%
+                                            70%
                                             </span>
                                         </span>
                                         <div className="background">
                                             <div className="bar">
-                                            <div className="bar_in" style={{width: "80%"}}></div>
+                                            <div className="bar_in" style={{width: "70%"}}></div>
                                             </div>
                                         </div>
                                     </div>
@@ -188,12 +188,12 @@ const HomeContainer = ({activeTab}) => {
                                         </li>
                                         <li className="m-0 pl-[25px] relative">
                                             <span>
-                                            Webpack, Baebl, Jest
+                                            Webpack, Babel, Jest
                                             </span>
                                         </li>
                                         <li className="m-0 pl-[25px] relative">
                                             <span>
-                                            Git, AWS, Azure Devops, Docker
+                                            Git, AWS, Azure Devops
                                             </span>
                                         </li>
                                     </ul>

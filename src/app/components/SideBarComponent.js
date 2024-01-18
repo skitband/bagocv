@@ -40,7 +40,7 @@ const SideBarComponent = ({activeTab, handleClick}) => {
                             <a 
                                 className="text-[#767676] capitalize inline-block font-medium font-montserrat transition-all duration-300 hover:text-black" 
                                 href="#"
-                                onClick={() => handleMenuClick('works')} > Works 
+                                onClick={() => handleMenuClick('works')} > Career 
                             </a>
                         </li>
                         <li className="m-0 w-full float-left ">

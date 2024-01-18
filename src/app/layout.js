@@ -20,8 +20,8 @@ export const viewport = {
 }
 
 export const metadata = {
-  title: "I'm a ghost!",
-  description: 'Sergio Lio',
+  title: "SERJO LIO | I'm a ghost!",
+  description: 'Sergio Lio Online Portfolio',
 }
 
 export default function RootLayout({ children }) {
