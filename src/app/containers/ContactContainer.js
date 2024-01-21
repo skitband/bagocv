@@ -95,7 +95,7 @@ const ContactContainer = ({ activeTab }) => {
                         <span className="inline-block bg-[rgba(0,0,0,.04)] uppercase py-[4px] px-[10px] font-semibold text-[12px] text-[#333] font-montserrat tracking-[0px] mb-[11px]">
                             Contact
                         </span>
-                        <h3 className="font-extrabold font-montserrat">Let&apos;s Work It Out!</h3>
+                        <h3 className="font-extrabold font-montserrat">Hire Me!</h3>
                         </div>
                     </div>
                     </div>

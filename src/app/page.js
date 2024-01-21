@@ -55,7 +55,7 @@ export default function Home() {
               <a href="#about" onClick={() => onHandleClick('about')}>About</a>
             </li>
             <li>
-              <a href="#service" onClick={() => onHandleClick('works')}>Works</a>
+              <a href="#service" onClick={() => onHandleClick('works')}>Career</a>
             </li>
             <li>
               <a href="#portfolio" onClick={() => onHandleClick('portfolio')}>Portfolio</a>
