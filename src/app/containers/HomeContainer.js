@@ -9,6 +9,7 @@ const HomeContainer = ({activeTab}) => {
         backgroundImage: `url(${backgroundImageUrl})`
     };
 
+
     return (
         <div>
             { activeTab == 'home' ?

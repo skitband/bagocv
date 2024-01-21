@@ -5,6 +5,8 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import '../styles/plugins.css'
 import '../styles/style.css'
+import '../styles/custom.css';
+import '../styles/main.css';
 
 
 library.add(fas, fab);

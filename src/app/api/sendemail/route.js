@@ -1,3 +1,5 @@
+import { supabase } from '../../../utils/supabase';
+
 const nodemailer = require('nodemailer');
 
 let transporter = nodemailer.createTransport({
@@ -10,6 +12,7 @@ let transporter = nodemailer.createTransport({
 });
 
 export async function POST(request) {
+
     try {
         const res = await request.json()
 
@@ -23,6 +26,19 @@ export async function POST(request) {
   
       const info = await transporter.sendMail(mailOptions);
       console.log('Email sent:', info.response);
+
+      // process supabase
+      const { data, error } = await supabase.from('messages').insert([
+        { email: res.email, subject: res.subject, message: res.message },
+      ]);
+
+      if (error) {
+        return new Response(`Error saving to supabase: ${error.message}`, {
+          status: 400,
+        });
+      } else {
+        console.log('Contact form submission successful:', data);
+      }
   
     } catch (error) {
       return new Response(`Webhook error: ${error.message}`, {
@@ -33,7 +49,25 @@ export async function POST(request) {
     return new Response('Success!', {
       status: 200,
     });
+}
+
+
+export async function GET() {
+
+  try {
+
+    const { data, error } = await supabase.from('messages').select('messages');
+
+  } catch (error) {
+    return new Response(`Webhook error: ${error.message}`, {
+      status: 400,
+    });
   }
+
+  return new Response('Success!', {
+    status: 200,
+  });
+}
 
 
 

@@ -44,13 +44,13 @@ const ContactContainer = ({ activeTab }) => {
 
     const sendEmail = async (email, subject, message) => {
         return axios({
-          method: 'post',
-          url: '/api/sendemail',
-          data: {
-            email: email,
-            subject: subject,
-            message: message,
-          },
+            method: 'post',
+            url: '/api/sendemail',
+            data: {
+              email: email,
+              subject: subject,
+              message: message,
+            },
         });
     };
     

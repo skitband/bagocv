@@ -2,8 +2,7 @@
 
 import { useState } from 'react';
 
-import '../styles/custom.css';
-import '../styles/main.css';
+
 import SideBarComponent from './components/SideBarComponent';
 import HomeContainer from './containers/HomeContainer';
 import AboutContainer from './containers/AboutContainer';
@@ -14,6 +13,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 export default function Home() {
+
 
   const [activeTab, setActiveTab] = useState('home');
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -69,6 +69,7 @@ export default function Home() {
 
 
       <SideBarComponent activeTab={activeTab} handleClick={onHandleClick}/>
+      
       <div className="rightpart w-full min-h-[100vh] float-left relative bg-[#f8f8f8] pl-[450px]">
         <div className="rightpart_in relative w-full float-left clear-both border-solid border-[#ebebeb] border-l min-h-[100vh]">
           <HomeContainer activeTab={activeTab} />
