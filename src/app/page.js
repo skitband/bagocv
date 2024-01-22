@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from 'react';
-import { Helmet } from 'react-helmet';
 import SideBarComponent from './components/SideBarComponent';
 import HomeContainer from './containers/HomeContainer';
 import AboutContainer from './containers/AboutContainer';
@@ -28,9 +27,7 @@ export default function Home() {
 
   return (
     <>
-    <Helmet>
-      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    </Helmet>
+    
     <main className="tokyo_tm_all_wrap bg-[#f8f8f8]">
       <div className="tokyo_tm_topbar">
         <div className="topbar_inner">

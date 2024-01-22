@@ -7,7 +7,6 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ReCAPTCHA from "react-google-recaptcha";
 
-const recaptchaKey = process.env.GOOGLE_RECAPTCHA_SITE_KEY
 
 const ContactContainer = ({ activeTab }) => {
 
@@ -175,7 +174,7 @@ const ContactContainer = ({ activeTab }) => {
                         <div className="error">{formik.errors.message}</div>
                     ) : null}
                             </div>
-                            <div>
+                            <div className="my-4">
                             <ReCAPTCHA
                                 sitekey="6LcFUlgpAAAAAIVGFPlw9_HMDoXstfRVVhla2p3i"
                                 onChange={(value) => formik.setFieldValue("g-recaptcha-response", value)}
