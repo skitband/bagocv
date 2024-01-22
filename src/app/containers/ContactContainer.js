@@ -5,7 +5,9 @@ import axios from 'axios';
 import { useFormik } from 'formik';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import ReCAPTCHA from "react-google-recaptcha";
 
+const recaptchaKey = process.env.GOOGLE_RECAPTCHA_SITE_KEY
 
 const ContactContainer = ({ activeTab }) => {
 
@@ -30,6 +32,11 @@ const ContactContainer = ({ activeTab }) => {
     
         if (!values.message.trim()) {
           errors.message = 'Message is required';
+        }
+
+        const recaptchaValue = formik.values["g-recaptcha-response"];
+        if (!recaptchaValue) {
+            errors.message = 'Recaptcha is invalid';
         }
     
         return errors;
@@ -167,6 +174,12 @@ const ContactContainer = ({ activeTab }) => {
                             {formik.touched.message && formik.errors.message ? (
                         <div className="error">{formik.errors.message}</div>
                     ) : null}
+                            </div>
+                            <div>
+                            <ReCAPTCHA
+                                sitekey="6LcFUlgpAAAAAIVGFPlw9_HMDoXstfRVVhla2p3i"
+                                onChange={(value) => formik.setFieldValue("g-recaptcha-response", value)}
+                            />
                             </div>
                             <div className="tokyo_tm_button" data-position="left">
                                 <button

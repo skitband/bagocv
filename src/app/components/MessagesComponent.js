@@ -41,7 +41,7 @@ export const MessagesComponent = () => {
     useEffect(() => {
         const fetchMsg = async () => {
           setIsLoading(true)
-          const { data } = await supabase.from('messages').select('*')
+          const { data } = await supabase.from('messages').select('*').order('created_at', { ascending: false });
           setMessages(data)
           setTimeout(() => {
             setIsLoading(false)
@@ -95,7 +95,6 @@ export const MessagesComponent = () => {
                                         <div className="short">
                                             <p className="date font-montserrat text-[12px] text-[#767676]">
                                                 From: {message.email}
-                                                
                                             </p>
                                         </div>
                                         </div>
