@@ -4,7 +4,7 @@ const contentDataItem = [
 		id: 1,
 		companyName: 'Eclaro Philippines / Westfield Insurance OH, USA',
 		mainTitle: 'React Developer',
-        date: 'Jan 2023 - Present',
+        date: 'Jan 2023 - Dec 2023',
 		descriptions: [
 			"Developing and implementing highly responsive user interface components using react concepts.",
 			"Developing and implementing front-end architecture to support user interface concepts.",
@@ -68,7 +68,19 @@ const contentDataItem = [
 			"Create support documentation for all new applications.",
 		]
 	},
-	
+	{
+		id: 6,
+		companyName: 'Taallum Group | Innovatix Systems Services',
+		mainTitle: 'Web Developer',
+        date: 'Dec 2023 - Present',
+		descriptions: [
+			"Developed user interfaces with React.js andNext.js for an e-commerce platform and education.",
+			"Created reusable UI components and documentation",
+			"Implemented state management libraries with Zustand or Redux to handle complex application state and side effects.",
+			"Connected and integrated various secure payment gateways for seamless checkout experiences.",
+			"Collaborated with cross-functional teams, including designers and backend developers, to deliver high-quality, user-friendly applications. Optimized web applications for maximum speed and scalability.",
+		]
+	},
 	
 ];
   

@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSquareFacebook, faSquareTwitter, faSquareGithub, faSquareJs } from '@fortawesome/free-brands-svg-icons';
+import { faSquareFacebook, faSquareTwitter, faSquareGithub, faSquareJs, faSquareWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const HomeContainer = ({activeTab}) => {
     
@@ -43,8 +43,8 @@ const HomeContainer = ({activeTab}) => {
                                     </a>
                                 </li>
                                 <li className="mr-[8px] inline-block">
-                                    <a className="text-black text-[30px] transition-all duration-300 hover:text-black" href="https://codesandbox.io/u/skitband00" target="_blank">
-                                    <FontAwesomeIcon icon={ faSquareJs } size="2xl" className="faSocIcons" />
+                                    <a className="text-black text-[30px] transition-all duration-300 hover:text-black" href="tel: +974 71934862" target="_blank">
+                                    <FontAwesomeIcon icon={ faSquareWhatsapp } size="2xl" className="faSocIcons" />
                                     </a>
                                 </li>
                                 </ul>

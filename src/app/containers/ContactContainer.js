@@ -6,7 +6,8 @@ import { useFormik } from 'formik';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ReCAPTCHA from "react-google-recaptcha";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const ContactContainer = ({ activeTab }) => {
 
@@ -105,7 +106,14 @@ const ContactContainer = ({ activeTab }) => {
                         </div>
                     </div>
                     </div>
-                    <div className="map_wrap w-full float-left clear-both h-auto mb-[50px]">
+                    <div className="text-justify mb-4">
+                        <ul>
+                            <li>Phone: +63 967 288-7664 | Whatsapp: +974 7193-4862</li>
+                            <li>Email: sergiomanuellio@gmail.com</li>
+                            <li>Location: Metro Manila, Philippines</li>
+                        </ul>
+                    </div>
+                    {/* <div className="map_wrap w-full float-left clear-both h-auto mb-[50px]">
                     <div className="mapouter">
                         <div className="gmap_canvas">
                         <iframe 
@@ -128,7 +136,7 @@ const ContactContainer = ({ activeTab }) => {
                         />
                         </div>
                     </div>
-                    </div>
+                    </div> */}
                     <div className="fields w-full float-left clear-both h-auto">
                         <form className="contact_form" onSubmit={formik.handleSubmit}>
                             {responseMessage.isSuccessful && 

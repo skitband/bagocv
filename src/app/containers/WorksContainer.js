@@ -34,6 +34,18 @@ const WorksContainer = ({activeTab}) => {
                     </div>
                     <div className="list w-full h-auto clear-both float-left">
                         <ul className="ml-[-40px] list-none flex flex-wrap">
+                        <li className="mb-[40px] w-1/3 h-full pl-[40px]" onClick={() => handleOpenModal(6)}>
+                                <div className="list_inner w-full h-auto clear-both float-left relative border-solid border-[rgba(0,0,0,.1)] border bg-white pr-[30px] pb-[40px] pl-[30px] transition-all duration-300">
+                                    <h3 className="title font-bold text-black text-[18px] mt-[20px]">Web Developer</h3>
+                                    <h5 className="leading-6 text-sm font-bold">Taallum Group | ISS</h5>
+                                    <p className="text py-3">
+                                        Web developer for Innovatix Systems Services...
+                                    </p>
+                                    <span className="text-sm italic">Dec 2023 - Present</span>
+                                    <div className="tokyo_tm_read_more"><a href="#"><span>Read More</span></a></div>
+                                    <a className="tokyo_tm_full_link" href="#"></a><img className="popup_service_img opacity-0 invisible hidden absolute z-[-111]" src="assets/img/news/1.jpg" alt="img" />
+                                </div>
+                            </li>
                             <li className="mb-[40px] w-1/3 h-full pl-[40px]" onClick={() => handleOpenModal(1)}>
                                 <div className="list_inner w-full h-auto clear-both float-left relative border-solid border-[rgba(0,0,0,.1)] border bg-white pr-[30px] pb-[40px] pl-[30px] transition-all duration-300">
                                     <h3 className="title font-bold text-black text-[18px] mt-[20px]">React Developer</h3>
@@ -41,7 +53,7 @@ const WorksContainer = ({activeTab}) => {
                                     <p className="text py-3">
                                         Front-end developer for Westfield...
                                     </p>
-                                    <span className="text-sm italic">Jan 2023 - Present</span>
+                                    <span className="text-sm italic">Jan 2023 - Jan 2024</span>
                                     <div className="tokyo_tm_read_more"><a href="#"><span>Read More</span></a></div>
                                     <a className="tokyo_tm_full_link" href="#"></a><img className="popup_service_img opacity-0 invisible hidden absolute z-[-111]" src="assets/img/news/1.jpg" alt="img" />
                                 </div>
