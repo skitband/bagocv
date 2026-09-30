@@ -3,7 +3,7 @@ import { faSquareFacebook, faSquareTwitter, faSquareGithub, faSquareJs, faSquare
 
 const HomeContainer = ({activeTab}) => {
     
-    const backgroundImageUrl = "./assets/img/pic-b&w.png";
+    const backgroundImageUrl = "./assets/img/display-photo.jpg";
 
     const containerStyle = {
         backgroundImage: `url(${backgroundImageUrl})`
@@ -21,9 +21,9 @@ const HomeContainer = ({activeTab}) => {
                         <div className="image absolute inset-0 bg-no-repeat bg-center bg-cover" data-img-url="assets/img/slider/1.jpg" style={containerStyle}></div>
                         </div>
                         <div className="details ml-[80px]">
-                            <h3 className="name text-[55px] font-extrabold uppercase mb-[14px]">Serjo <span>Lio</span></h3>
+                            <h3 className="name text-[55px] font-extrabold uppercase mb-[14px]">I'M SERGIO </h3>
                             <p className="job font-montserrat font-medium max-w-[450px] mb-[25px]">
-                            An experienced Front End Developer adept in bringing forth expertise in user interface, design, testing and development of web applications.
+                            An experienced Software Engineer adept in bringing forth expertise in software development, design, testing and development of web and mobile applications.
                             </p>
                             <div className="social w-full float-left">
                                 <ul className="m-0 list-none">

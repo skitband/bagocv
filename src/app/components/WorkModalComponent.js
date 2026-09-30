@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClose } from '@fortawesome/free-solid-svg-icons';
+import { faClose, faMapPin } from '@fortawesome/free-solid-svg-icons';
 
 const WorkModalComponent = ({id, isModalOpen, onClose, contentData}) => {
 
@@ -10,7 +10,7 @@ const WorkModalComponent = ({id, isModalOpen, onClose, contentData}) => {
         return null;
     }
 
-    const { companyName, mainTitle, descriptions, date } = selectedItem;
+    const { companyName, mainTitle, descriptions, date, location } = selectedItem;
 
     return (
         <div className={`tokyo_tm_modalbox ${isModalOpen ? 'opened' : ''}`}>
@@ -25,8 +25,9 @@ const WorkModalComponent = ({id, isModalOpen, onClose, contentData}) => {
                 <div className="extra">
                 <div className="short">
                     <p className="date">
-                        <a href="#">{companyName}</a> 
+                        <a href="#">{companyName}</a>
                     </p>
+                    <div className="location text-xs pt-2"><FontAwesomeIcon icon={faMapPin} /> <span>{location}</span> </div>
                 </div>
                 </div>
                 <h3 className="title">

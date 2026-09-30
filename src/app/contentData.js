@@ -5,6 +5,7 @@ const contentDataItem = [
 		companyName: 'Eclaro Philippines / Westfield Insurance OH, USA',
 		mainTitle: 'React Developer',
         date: 'Jan 2023 - Dec 2023',
+		location: 'Quezon City, Philippines',
 		descriptions: [
 			"Developing and implementing highly responsive user interface components using react concepts.",
 			"Developing and implementing front-end architecture to support user interface concepts.",
@@ -19,6 +20,7 @@ const contentDataItem = [
 		companyName: 'BCS Technology / Discovery Parks AU',
 		mainTitle: 'Mid Front End Developer',
         date: 'Nov 2021 - Jan 2023',
+		location: 'Sydney, Australia',
 		descriptions: [
 			"Ensure development, enhancements and project outcomes best leverage existing system investment and manage cost of ownership going forward.",
 			"Utilize established development tools, guidelines and conventions.",
@@ -32,6 +34,7 @@ const contentDataItem = [
 		companyName: 'Right Choice Finance Corp.',
 		mainTitle: 'Front End Developer',
         date: 'Mar 2020 - Jun 2021',
+		location: 'Makati, Philippines',
 		descriptions: [
 			"Responsible for maintaining and develop all parts of a complex system applications.",
 			"Writing well designed, testable, efficient code by using best software development practices.",
@@ -45,6 +48,7 @@ const contentDataItem = [
 		companyName: 'Traxiontech / GAVA Technologies',
 		mainTitle: 'Web Developer',
         date: 'Aug 2018 - Mar 2020',
+		location: 'Pasig, Philippines',
 		descriptions: [
 			
 			"Building PHP web applications using CodeIgniter / Laravel based frameworks.",
@@ -60,6 +64,7 @@ const contentDataItem = [
 		companyName: 'MAA General Assurance',
 		mainTitle: 'Junior Web Developer',
         date: 'Aug 2018 - Mar 2020',
+		location: 'Makati, Philippines',
 		descriptions: [
 			"Back-end development and maintenance of websites using PHP and MySQL.",
 			"Planning and conducting cross-browser usability testing against W3C.",
@@ -73,12 +78,31 @@ const contentDataItem = [
 		companyName: 'Taallum Group | Innovatix Systems Services',
 		mainTitle: 'Web Developer',
         date: 'Dec 2023 - Present',
+		location: 'Doha, Qatar',
 		descriptions: [
 			"Developed user interfaces with React.js andNext.js for an e-commerce platform and education.",
 			"Created reusable UI components and documentation",
 			"Implemented state management libraries with Zustand or Redux to handle complex application state and side effects.",
 			"Connected and integrated various secure payment gateways for seamless checkout experiences.",
 			"Collaborated with cross-functional teams, including designers and backend developers, to deliver high-quality, user-friendly applications. Optimized web applications for maximum speed and scalability.",
+		]
+	},
+	{
+		id: 7,
+		companyName: 'Inriver',
+		mainTitle: 'Sr. Software Engineer',
+        date: 'Mar 2025 - Present',
+		location: 'Malmo, Sweden',
+		descriptions: [
+			"Develop and maintain scalable, responsive, and high-performing web applications.",
+			"Collaborate with UI/UX designers to implement intuitive and visually appealing user interfaces.",
+			"Optimize applications for speed, scalability, and cross-browser compatibility.",
+			"Lead code reviews, ensuring adherence to best practices and maintaining a high-quality codebase.",
+			"Write unit and integration tests to ensure robust, reliable applications.",
+			"Stay updated with emerging frontend technologies and frameworks to continuously improve processes and deliverables.",
+			"Provide technical mentorship and guidance to other developers.",
+			"Work closely with backend engineers to integrate APIs and services seamlessly.",
+			"Participate in daily standups and retrospective."
 		]
 	},
 	

@@ -29,10 +29,10 @@ const HomeContainer = ({activeTab}) => {
                         </div>
                         <div className="about_title w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[20px] mb-[30px]">
                             <h3 className="text-[22px] font-bold text-black">Sergio</h3>
-                            <span>Front End Developer</span>
+                            <span>Sr. Software Engineer | Front-End Developer</span>
                         </div>
                         <div className="about_text w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[31px] mb-[30px]">
-                            <p className="mb-[11px]">With over 9 years of experience in the dynamic realm of web development, I am a seasoned Front-End Developer specializing in web user interface
+                            <p className="mb-[11px]">With over 10+ years of experience in the dynamic realm of web development, I am a seasoned Front-End Developer specializing in web user interface
                             and how to leverage them to create exceptional user experiences. From designing intuitive interfaces to optimizing performance and scalability.</p>
                             <p>One of my specialties is taking an idea from scratch and creating a full-fledged platform. I go beyond to produce sites with a unique, outstanding, contemporary look-and-feel. With extensive knowledge of web mechanics, committed to transforming complex ideas into elegant and efficient code.</p>
                         </div>
@@ -110,6 +110,19 @@ const HomeContainer = ({activeTab}) => {
                                 <div className="progress_inner">
                                     <span>
                                         <span className="label">NodeJS</span>
+                                        <span className="number">
+                                        70%
+                                        </span>
+                                    </span>
+                                    <div className="background">
+                                        <div className="bar">
+                                        <div className="bar_in" style={{width: "80%"}}></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="progress_inner">
+                                    <span>
+                                        <span className="label">React Native / Mobile Development</span>
                                         <span className="number">
                                         70%
                                         </span>

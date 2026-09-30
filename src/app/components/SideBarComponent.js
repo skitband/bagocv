@@ -17,7 +17,7 @@ const SideBarComponent = ({activeTab, handleClick}) => {
             <div className="leftpart_inner w-full h-auto">
                 <div className="logo">
                 <a href="#">
-                    <h3 className="font-MontserratExtraBold font-black text-[31px] tracking-[5px]">HELLO!</h3>
+                    <h3 className="font-MontserratExtraBold font-black text-[31px] tracking-[5px]">HEY!</h3>
                 </a>
                 </div>
                 <div className="menu px-[0px] py-[50px] w-full float-left">
