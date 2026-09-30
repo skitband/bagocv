@@ -129,7 +129,7 @@ const HomeContainer = ({activeTab}) => {
                                     </span>
                                     <div className="background">
                                         <div className="bar">
-                                        <div className="bar_in" style={{width: "80%"}}></div>
+                                        <div className="bar_in" style={{width: "70%"}}></div>
                                         </div>
                                     </div>
                                 </div>

@@ -77,7 +77,7 @@ const contentDataItem = [
 		id: 6,
 		companyName: 'Taallum Group | Innovatix Systems Services',
 		mainTitle: 'Web Developer',
-        date: 'Dec 2023 - Present',
+        date: 'Dec 2023 - Feb 2025',
 		location: 'Doha, Qatar',
 		descriptions: [
 			"Developed user interfaces with React.js andNext.js for an e-commerce platform and education.",
